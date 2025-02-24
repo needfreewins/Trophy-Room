@@ -1,0 +1,61 @@
+body {
+    background: url('https://i.pinimg.com/originals/e3/47/ac/e347ac7e596bb2bf20f549902c1cf5e6.gif') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0 10px;
+}
+
+.title-image {
+    width: 50px;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.subtitle {
+    color: white;
+    margin-top: 10px;
+}

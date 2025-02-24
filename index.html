@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cowboy's Panty Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title-container">
+        <img src="https://cdn.discordapp.com/attachments/1326823389519810684/1332602343447072809/Cowboy.png?ex=67ba1b65&is=67b8c9e5&hm=a70d730a761d205b2bed38b3d31bf86e9b1becdfc8474e9cd9825ea19d3f05df&" alt="Title Image" class="title-image">
+        <h1>Cowboy's Panty Collection</h1>
+    </div>
+
+    <!-- Losers Section -->
+    <h2>🏆 Trophy's 🏆</h2>
+    <div id="losers-gallery" class="gallery">
+        <button onclick="prevImage('losers')">⬅️</button>
+        <div id="losers-container"></div>
+        <button onclick="nextImage('losers')">➡️</button>
+    </div>
+
+    <!-- Winners Section -->
+    <h2>🥇 Winners 🥇</h2>
+    <div id="winners-gallery" class="gallery">
+        <button onclick="prevImage('winners')">⬅️</button>
+        <div id="winners-container"></div>
+        <button onclick="nextImage('winners')">➡️</button>
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
