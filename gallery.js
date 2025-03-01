@@ -28,7 +28,12 @@ const losers = [
         src: "https://i.ibb.co/M5Gd2ZZr/rp-babe.png",
         link: "https://www.reddit.com/user/rp___babe/",
         name: "rp___babe"
-    }
+    },
+    {
+        src: "https://i.ibb.co/bjkJ32Bd/Tech-Savvy-Siren.png",
+        link: "https://www.reddit.com/user/TechSavvySiren/",
+        name: "TechSavvySiren"
+    },
 ];
 
 const winners = [
