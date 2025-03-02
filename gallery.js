@@ -20,11 +20,6 @@ const losers = [
         name: "Teal Octopus"
     },
     {
-        src: "https://i.ibb.co/QqM7pFh/boundinwonderland.png",
-        link: "https://www.reddit.com/user/boundinwonderland/",
-        name: "boundinwonderland"
-    },
-    {
         src: "https://i.ibb.co/M5Gd2ZZr/rp-babe.png",
         link: "https://www.reddit.com/user/rp___babe/",
         name: "rp___babe"
